@@ -2,11 +2,21 @@ p {
     font-size: .75rem;
 }
 
-
-h1 {
-    font-size: 500%;
+#Welcome {
+    background: pink;
 }
 
 #headerImg {
-    height: 1%;
+    max-height: 500px;
+    width: auto;
 }
+
+a:hover {
+    padding: 5px;
+    background:  rgb(206, 63, 194);
+}
+
+main {
+    background: rgb(206, 63, 194);
+}
+

@@ -10,20 +10,20 @@
 </head>
 
 <body class="text-center">
-    <div class="header_background">
+    <div id="Welcome">
         <header class="container">
             <div class="row">
                 <h1 class="col-sm-6 align-self-center">Wren's World</h1>
-                <img id="headerImg" class="img-fluid col-sm-6 " src="images/header_img.jpg" alt="Miss Wren with a bunny snapchat filter">
-                <h5 class="col">It's her world, we're just living in it.</h5>
-            </div>
+                <img id="headerImg" class="img-fluid col-sm-6 " src="images/Wren_hospital.jpeg" alt="Miss Wren with a bunny snapchat filter">
+                <h5 class="col-12">It's her world, we're just living in it.</h5>
+            </div>    
         </header> 
     </div>  
     
     <main class="container">
         <div class="row">
             <div>
-                <img class="img-fluid click_image" src="images/Wren_hospital.jpeg" alt="Miss Wren sitting in her hospital gown">
+                <img id="bio_image" class="img-fluid click_image" src="images/Wren_hospital.jpeg" alt="Miss Wren sitting in her hospital gown">
                 <div>
                     <h2>Our Baby Bird's interests</h2>
                     <div>
@@ -116,27 +116,21 @@
     </main>
 
     <footer>
-        <div class="nav">
-            <ul class="nav_menu">
-                <li><a href="#">Recent Endevors</a></li>
-                <li><a href="#">365 days!</a></li>
-                <li><a href="#">180 days!</a></li>
-                <li><a href="#">Day One!</a></li>
-                <li><a href="#">Dadda</a></li>
-                <li><a href="#">Momma</a></li>
-            </ul>
-            <nav class="navbar fixed-bottom navbar-light bg-light">
-                <a class="navbar-brand" href="#">Fixed bottom</a>
-                <a class="navbar-brand" href="#">Fixed bottom</a>
-                <a class="navbar-brand" href="#">Fixed bottom</a>
-                <a class="navbar-brand" href="#">Fixed bottom</a>
-                <a class="navbar-brand" href="#">Fixed bottom</a>
-                <a class="navbar-brand" href="#">Fixed bottom</a>
-            </nav>
-        </div>
+        <nav class="dropup navbar navbar-expand-sm fixed-bottom navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="btn btn-secondary navbar-toggler-icon"></span>
+            </button>
+            <div class="alert alert-danger collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="mx-auto navbar-brand alert-link" href="#">Momma</a>
+                <a class="mx-auto navbar-brand alert-link" href="#">Dadda</a>
+                <a class="mx-auto navbar-brand alert-link" href="#">Day Zero</a>
+                <a class="mx-auto navbar-brand alert-link" href="#">First Steps</a>
+                <a class="mx-auto navbar-brand alert-link" href="#">Most Recent</a>
+            </div>
+        </nav>
     </footer>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="JS/main.js"></script>
 </body>
 </html>
