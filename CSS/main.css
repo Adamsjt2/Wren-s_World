@@ -1,22 +1,44 @@
-p {
-    font-size: .75rem;
-}
-
+/* Adding background color */
 #Welcome {
     background: pink;
 }
-
-#headerImg {
-    max-height: 500px;
-    width: auto;
+main {
+    background: rgb(206, 63, 194);
 }
 
+/* Styling images */
+#headerImg {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+#bio_image {
+    max-height: 300px;
+    max-width: 300px;
+    border-radius: 50%;
+}
+
+.click_image {
+    max-height: 300px;
+    max-width: 300px;
+}
+.click_image:hover {
+    cursor: pointer;
+    border: 5px solid hotpink;
+}
+
+/* Styling navbar links */
 a:hover {
     padding: 5px;
     background:  rgb(206, 63, 194);
 }
 
-main {
-    background: rgb(206, 63, 194);
+/* Misc */
+p {
+    font-size: .75rem;
 }
+main {
+    padding: 0 0 5rem;
+}
+
 
