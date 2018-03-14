@@ -2,7 +2,7 @@
 #Welcome {
     background: pink;
 }
-main {
+.content {
     background: rgb(206, 63, 194);
 }
 
@@ -40,5 +40,13 @@ p {
 main {
     padding: 0 0 5rem;
 }
+body {
+    font-family: cursive;
+}
 
+/* Print media query */
+@media Print {
+
+    
+}
 
