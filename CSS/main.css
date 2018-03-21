@@ -1,15 +1,21 @@
-/* Adding background color */
-#Welcome {
-    background: pink;
+/* CSS class for JavaScript to hide image captions */
+.imgCaptionHide {
+    display: none;
 }
-.content {
-    background: rgb(206, 63, 194);
+/* Adding backgrounds */
+
+body {
+    background-image: url(../images/Background1.jpg);
+    background-size: 100%;
+    color: white;
 }
 
 /* Styling images */
 #headerImg {
+    border-radius: 50%;
     max-height: 200px;
     max-width: 200px;
+    margin: auto;
 }
 
 #bio_image {
@@ -19,6 +25,7 @@
 }
 
 .click_image {
+    border-radius: 20%;
     max-height: 300px;
     max-width: 300px;
 }
@@ -42,13 +49,23 @@ main {
 }
 body {
     font-family: cursive;
+    color: white;
+}
+
+.gallery {
+    justify-content: space-around;
 }
 
 /* Print media query */
 @media print {
 
-.hidden { display: block;}
+.imgCaptionHide { display: block;}
 
-img { display: none; }
+#bio_image, .click_image { display: none; }
+
+h1 { margin: auto; }
+
+.bioHeading { display: none }
+
+body { color: black; }
 }
-

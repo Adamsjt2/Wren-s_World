@@ -1,15 +1,18 @@
 /* JS for displaying images text */
 
 //initially hides all divs on images
-$(".imgCaption").hide();
+$(".imgCaption").addClass("imgCaptionHide");
 
-//brings up image caption on click and rehides all other image div
-
+//starts a click event
 $(".click_image").on("click", function () {
+// declares my variable that selects the .imgCaption class that's a sibling of the element you clicked
     var $imgCaption = $(this).siblings(".imgCaption");
+//checks if the selected class is hidden    
     if ($imgCaption.is(":hidden")) {
+//the first line makes sure that all .imgCaption classes are hidden and the next line shows the selected .imgCaption class      
      $(".imgCaption").hide();
      $imgCaption.show();
+//the else part hides the selected .imgCaption class if it already shown    
     } else {
      $(".imgCaption").hide();
     }
