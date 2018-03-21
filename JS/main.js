@@ -1,17 +1,17 @@
 /* JS for displaying images text */
 
 //initially hides all divs on images
-$(".hidden").hide();
+$(".imgCaption").hide();
 
-//brings up image div on click and rehides all other image div
+//brings up image caption on click and rehides all other image div
 
 $(".click_image").on("click", function () {
-    var $imgCaption = $(this).siblings(".hidden");
+    var $imgCaption = $(this).siblings(".imgCaption");
     if ($imgCaption.is(":hidden")) {
-     $(".hidden").hide();
+     $(".imgCaption").hide();
      $imgCaption.show();
     } else {
-     $(".hidden").hide();
+     $(".imgCaption").hide();
     }
  })
 

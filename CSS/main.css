@@ -45,8 +45,10 @@ body {
 }
 
 /* Print media query */
-@media Print {
+@media print {
 
-    
+.hidden { display: block;}
+
+img { display: none; }
 }
 
