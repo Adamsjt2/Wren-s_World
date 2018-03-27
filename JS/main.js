@@ -12,10 +12,21 @@ $(".click_image").on("click", function () {
 //the first line makes sure that all .imgCaption classes are hidden and the next line shows the selected .imgCaption class      
      $(".imgCaption").hide();
      $imgCaption.show();
-//the else part hides the selected .imgCaption class if it already shown    
+//the else part hides the selected .imgCaption class if it's already shown    
     } else {
      $(".imgCaption").hide();
     }
  })
 
+ //Getting navbar links to open image captions
+$("#newBornLink").on("click", function () {
+    $("#newBornCaption").show()
+ })
+ 
+$("#firstStepsLink").on("click", function () {
+    $("#firstStepsCaption").show()
+ })  
 
+$("#recentLink").on("click", function () {
+    $("#recentCaption").show()
+ }) 

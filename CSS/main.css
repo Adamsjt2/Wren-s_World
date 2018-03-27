@@ -3,8 +3,11 @@
     display: none;
 }
 /* Adding backgrounds */
+#Welcome {
+    background: rgb(255, 88, 116);
+}
 
-body {
+.content {
     background-image: url(../images/Background1.jpg);
     background-size: 100%;
     color: white;
@@ -35,7 +38,7 @@ body {
 }
 
 /* Styling navbar links */
-a:hover {
+.navButtons a:hover {
     padding: 5px;
     background:  rgb(206, 63, 194);
 }
@@ -45,7 +48,7 @@ p {
     font-size: .75rem;
 }
 main {
-    padding: 0 0 5rem;
+    padding: 0 0 0;
 }
 body {
     font-family: cursive;
@@ -54,6 +57,10 @@ body {
 
 .gallery {
     justify-content: space-around;
+}
+
+.copyright {
+    padding-bottom: 100px;
 }
 
 /* Print media query */

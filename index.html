@@ -19,6 +19,25 @@
             </div>    
         </header> 
     </div>
+
+<!--Sticky bottom nav bar  -->
+        <div>
+            <nav class="dropup navbar navbar-expand-sm fixed-bottom navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="btn btn-secondary navbar-toggler-icon"></span>
+            </button>
+                <div class="alert alert-danger collapse navbar-collapse navButtons" id="navbarTogglerDemo01">
+                    <a class="mx-auto navbar-brand alert-link" href="#">Momma</a>
+                    <a class="mx-auto navbar-brand alert-link" href="#">Dadda</a>
+                    <a id="newBornLink" class="mx-auto navbar-brand alert-link" href="index.html#newBorn">Day Zero</a>
+                    <a id="firstStepsLink" class="mx-auto navbar-brand alert-link" href="index.html#firstSteps">First Steps</a>
+                    <a id="recentLink" class="mx-auto navbar-brand alert-link" href="index.html#Recent">Most Recent</a>
+                </div>
+            </nav>
+        </div>
+    
+
+<!--Likes and dislikes, Most Recent Photo  -->
     <div class="content">
         <main class="container">
             <div class="row">
@@ -51,10 +70,12 @@
                 </div>                           
             </div>
             
+           <!--Photo gallery with captions  -->
             <div class="row pb-5 gallery">
                 <div class="col-sm-6 col-lg-3 mb-2">
+                    <a name="Recent"></a>
                     <img class="img-fluid click_image" src="images/Wren_momma.jpg" alt="Momma and Wren sitting on an ottoman.">
-                    <div class="imgCaption">
+                    <div id="recentCaption" class="imgCaption">
                         <h3>Recent Outtings!</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare nisi nulla, eu condimentum neque luctus quis. Pellentesque 
                             habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur interdum dolor sed enim dictum elementum.
@@ -109,8 +130,9 @@
                     </div>
         
                     <div class="col-sm-6 col-lg-3 mb-2">
+                        <a name="firstSteps"></a>
                         <img class="img-fluid click_image" src="images/first_steps.jpg" alt="Wren taking some of her first steps">
-                        <div class="imgCaption">
+                        <div id="firstStepsCaption" class="imgCaption">
                             <h3>First Steps!</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare nisi nulla, eu condimentum neque luctus quis. Pellentesque 
                                 habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur interdum dolor sed enim dictum elementum.
@@ -155,8 +177,9 @@
                     </div>  
                    
                     <div class="col-sm-6 col-lg-3 mb-2">
-                        <a name="newBorn"><img class="img-fluid click_image" src="images/NewBorn.jpg" alt="Newborn Wren swaddled up in a hospital blanket."></a>
-                        <div class="imgCaption">
+                        <a name="newBorn"></a>
+                        <img class="img-fluid click_image" src="images/NewBorn.jpg" alt="Newborn Wren swaddled up in a hospital blanket.">
+                        <div id="newBornCaption" class="imgCaption">
                             <h3>She's Finally Here!</h3>  
                             <p>Vivamus pharetra efficitur quam, sed blandit diam euismod sit amet. Nam in vestibulum mi. Maecenas finibus enim nunc. 
                                 Quisque quis ipsum quis leo feugiat laoreet. Pellentesque a finibus sem. Ut eget imperdiet elit, et mollis odio. Etiam 
@@ -167,21 +190,11 @@
                     </div>  
             </div>
         </main>
-    </div>
+    
     <footer>
-        <nav class="dropup navbar navbar-expand-sm fixed-bottom navbar-light bg-light">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="btn btn-secondary navbar-toggler-icon"></span>
-            </button>
-            <div class="alert alert-danger collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a class="mx-auto navbar-brand alert-link" href="#">Momma</a>
-                <a class="mx-auto navbar-brand alert-link" href="#">Dadda</a>
-                <a class="mx-auto navbar-brand alert-link" href="index.html#newBorn">Day Zero</a>
-                <a class="mx-auto navbar-brand alert-link" href="#">First Steps</a>
-                <a class="mx-auto navbar-brand alert-link" href="#">Most Recent</a>
-            </div>
-        </nav>
+        <p class="copyright">&copy; Wren's World 2018</p>
     </footer>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="JS/main.js"></script>
