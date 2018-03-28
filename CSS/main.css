@@ -30,7 +30,7 @@
 .click_image {
     border-radius: 20%;
     max-height: 300px;
-    max-width: 300px;
+    max-width: 250px;
 }
 .click_image:hover {
     cursor: pointer;

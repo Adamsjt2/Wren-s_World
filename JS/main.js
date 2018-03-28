@@ -20,13 +20,20 @@ $(".click_image").on("click", function () {
 
  //Getting navbar links to open image captions
 $("#newBornLink").on("click", function () {
-    $("#newBornCaption").show()
+    $(".imgCaption").hide();
+    $("#newBornCaption").show();
  })
  
 $("#firstStepsLink").on("click", function () {
-    $("#firstStepsCaption").show()
+    $(".imgCaption").hide();
+    $("#firstStepsCaption").show();
  })  
 
 $("#recentLink").on("click", function () {
-    $("#recentCaption").show()
- }) 
+    $(".imgCaption").hide();
+    $("#recentCaption").show();
+ })
+
+$(".broken").on("click", function() {
+    alert("Sorry, this link seems to lead nowhere")
+}) 
