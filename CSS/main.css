@@ -47,9 +47,7 @@
 p {
     font-size: .75rem;
 }
-main {
-    padding: 0 0 0;
-}
+
 body {
     font-family: cursive;
     color: white;
@@ -72,7 +70,7 @@ body {
 
 h1 { margin: auto; }
 
-.bioHeading { display: none }
+.bioHeading { display: none; }
 
 body { color: black; }
 }
