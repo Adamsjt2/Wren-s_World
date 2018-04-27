@@ -44,13 +44,14 @@
 }
 
 /* Misc */
-p {
-    font-size: .75rem;
-}
-
 body {
     font-family: cursive;
     color: white;
+}
+
+p {
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .gallery {
